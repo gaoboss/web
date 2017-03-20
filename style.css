@@ -5,7 +5,11 @@ body{font-size: 13px; line-height: 2em; font-family: "microsoft yahei",sans-seri
 #navs ul li{float: left; margin-right: 30px; width: 65px;}
 #navs ul li a{color: #fff; text-decoration: none;}
 
-#container{background-color: rgb(222,222,222); padding: 15px;}
+#container{background-color: rgb(222,222,222); padding: 15px; overflow: hidden;}
+#slider{float: right; width: 280px; height: auto; }
+#articles{margin-right: 325px;}
+
+
 .article, .div-images, #slider{background-color: #fff; margin-bottom: 15px; padding: 30px 15px; border: 1px solid rgb(205,205,205); box-shadow: 2px 2px 1px rgb(132,132,132);}
 .article h3, .article span{color: rgb(103,103,103);}
 .article p{text-indent: 2em;}
@@ -13,8 +17,10 @@ body{font-size: 13px; line-height: 2em; font-family: "microsoft yahei",sans-seri
 .noliststyle a{text-decoration: none;}
 .noliststyle a:link, .noliststyle a:visited{color: black;}
  
-.div-images div{width: 200px; border: 1px solid rgb(206,206,206); margin: 10px 50px; padding: 10px; text-align: center;}
-.div-images div img{width: 100%;}
+.div-images{overflow: hidden;}
+.image-article{float:left; width: 200px; border: 1px solid rgb(206,206,206); margin: 10px 10px; padding: 10px; text-align: center;}
+.image-article img{width: 100%; margin-bottom: 0;}
+
 .article ol li{margin-left: 2em; list-style-position: inside;}
 .article table{width: 100%; border-collapse:collapse;}
 .article tr th, .article tr td{border: 1px solid rgb(200,200,200); text-align: left; padding: 0 5px;}
